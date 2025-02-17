@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -14,13 +18,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 main {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 15px;
 }
 
 .top {
@@ -30,4 +33,32 @@ main {
 
 .time {
     text-align: center;
+}
+
+#crypto {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+div#crypto > p{
+    margin: 0;
+}
+
+.img-bitcoin {
+    margin-right: 10px;
+}
+
+div#top-crypto > span {
+    margin-left: 10px;
+}
+
+#currencies {
+    display: flex;
+    flex-direction: column;
+}
+
+div#currencies > p {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
